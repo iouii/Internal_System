@@ -1,0 +1,88 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.column {
+    float: left;
+    width: 16.65%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.columnx {
+    float: left;
+    width: 33.33%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    height: 160px;
+}
+
+.cardx {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    height: 250px;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(133, 204, 245, 0.795);
+}
+
+.containerz {
+    padding: 0 16px;
+    height: 120px;
+}
+
+.containerx {
+    padding: 0 16px;
+    height: 250px;
+}
+
+.containerz::after,
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.containerx::after,
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: rgb(110, 110, 110);
+}

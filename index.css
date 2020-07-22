@@ -1,0 +1,375 @@
+body {
+    /*  background-color: rgb(68, 67, 67) !important;*/
+    background-color: #f2f2f2;
+    overflow-x: hidden;
+}
+
+.div-headtop a {
+    color: #fff;
+}
+
+.div-headtop li:hover {
+    background-color: #456496;
+}
+
+.menu-div a {
+    font-size: 18px;
+}
+
+.menu-li a {
+    font-size: 14px;
+}
+
+.nav-li li {
+    font-size: 17px !important;
+}
+
+.list-group-item {
+    list-style-type: circle !important;
+}
+
+.us-h5 {
+    color: #e6f14c;
+}
+
+.div-ul {
+    padding-top: 10px;
+}
+
+.div-head {
+    background-color: #167be0;
+    height: 65px;
+}
+
+.div-headtop {
+    background-color: #1a458a;
+    height: 65px;
+}
+
+.welcome-iframe {
+    width: 98%;
+    height: 450px;
+}
+
+.ioc {
+    height: auto;
+}
+
+.text-welcome {
+    margin-left: 150px;
+}
+
+.head-text {
+    color: #fff;
+    margin-top: 15px;
+    padding-top: 15px;
+}
+
+.responsive {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    margin-right: 250px;
+}
+
+.wel-tex b {
+    color: #1a458a;
+}
+
+#sec-i {
+    background-color: #315896 !important;
+}
+
+#section1 {
+    margin-top: 50px;
+}
+
+.top-class {
+    width: 30%;
+    height: 50px;
+    background-color: #315896 !important;
+    opacity: 0.7;
+    z-index: 2;
+}
+
+.text-p-style {
+    font-size: 14px;
+    margin-left: 10px;
+    color: #000
+}
+
+.head-huntera {
+    background-color: rgb(68, 67, 67) !important;
+    color: #fff !important;
+}
+
+.text-p-style-3 {
+    font-size: 8px;
+}
+
+.color-navbar {
+    background-color: #f8f9fa;
+}
+
+.left {
+    background: linear-gradient(to bottom, #ffffff 0%, #f4f4f4 100%);
+}
+
+.left h4 {
+    color: #003399;
+}
+
+.right {
+    /* background: linear-gradient(to bottom, #315896 0%, #ffffff 100%);*/
+    background: transparent;
+}
+
+.right h4 {
+    color: #003399;
+}
+
+.li-p {
+    font-size: 14px;
+}
+
+.ioc {
+    height: 30px;
+}
+
+iframe {
+    width: 70%;
+    height: 235px;
+}
+
+.fr-news {
+    width: 870px;
+    height: 360px;
+}
+
+.a-li a {
+    color: #003399 !important;
+    font-size: 12px;
+}
+
+.menu-li button:hover {
+    color: #fff !important;
+    background-color: #2f93ff !important;
+}
+
+.menu-li a:hover {
+    color: rgb(114, 245, 234) !important;
+}
+
+.menu-li {
+    color: #fff !important;
+    font-size: 12px;
+    background-color: #1a458a !important;
+}
+
+.menu-li:hover {
+    color: #fff !important;
+    /* background-color: rgb(0, 132, 255) !important;*/
+    background-color: transparent;
+}
+
+.ul-tab {
+    display: none;
+}
+
+.login-nav a:hover {
+    color: #2f93ff !important;
+    font-size: 18px;
+}
+
+.login-nav a {
+    color: #1a458a !important;
+    font-size: 18px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.frame-slide {
+    height: 30px !important;
+    width: 85% !important;
+}
+
+.frame-slidez {
+    height: 300px !important;
+    width: 100% !important;
+    margin-top: 20px;
+}
+
+.gogle {
+    height: 350px !important;
+    width: 100% !important;
+}
+
+.us-li {
+    list-style-type: none;
+    font-size: 13px;
+}
+
+.us-p {
+    font-size: 13px;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+
+
+/* Fade in tabs */
+
+@-webkit-keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.accordion {
+    background-color: #63cffa;
+    color: #003399;
+    cursor: pointer;
+    padding: 17px;
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+    transition: 0.4s;
+    height: 50px;
+}
+
+.active,
+.accordion:hover {
+    color: #fff !important;
+    font-size: 14px;
+    background-color: rgb(0, 132, 255) !important;
+}
+
+.link-1 {
+    margin-top: 10px;
+    margin-left: 2px;
+    margin-right: 15px;
+}
+
+.link-1 li {
+    list-style-type: none !important;
+    text-align: center;
+}
+
+.link-2 {
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.panel {
+    padding: 0 15px;
+    background-color: transparent;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.menu-sub {
+    color: #000;
+    background-color: #eff7fa;
+}
+
+.menu-sub:hover {
+    color: #fff;
+    background-color: transparent;
+}
+
+.img-ico {
+    width: 45%;
+}
+
+.img-ico2 {
+    width: 10%;
+}
+
+.val {
+    width: 40%;
+}
+
+.h-top {
+    z-index: -5;
+}
+
+.container {
+    position: relative;
+    max-width: 800px;
+    /* Maximum width */
+    margin: 0 auto;
+    /* Center it */
+}
+
+.container .content {
+    position: absolute;
+    /* Position the background text */
+    bottom: 0;
+    /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(160, 160, 160);
+    /* Fallback color */
+    background: rgba(158, 157, 157, 0.5);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    /* Grey text */
+    width: 100%;
+    /* Full width */
+    padding: 20px;
+    /* Some padding */
+}
+
+.ic {
+    width: 45px;
+    height: 45px;
+}
+
+.card-weblink {
+    height: 250px;
+    width: 320px;
+    margin-top: 10px;
+    padding: auto;
+}
+
+.card-manual {
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.aic {
+    width: 60%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
